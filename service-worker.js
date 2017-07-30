@@ -1,22 +1,22 @@
 var cacheName = 'weatherPWA-step-6-1';
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/scripts/app.js',
-  '/styles/inline.css',
-  '/images/clear.png',
-  '/images/cloudy-scattered-showers.png',
-  '/images/cloudy.png',
-  '/images/fog.png',
-  '/images/ic_add_white_24px.svg',
-  '/images/ic_refresh_white_24px.svg',
-  '/images/partly-cloudy.png',
-  '/images/rain.png',
-  '/images/scattered-showers.png',
-  '/images/sleet.png',
-  '/images/snow.png',
-  '/images/thunderstorm.png',
-  '/images/wind.png'
+  '/PWA/',
+  '/PWA/index.html',
+  '/PWA/scripts/app.js',
+  '/PWA/styles/inline.css',
+  '/PWA/images/clear.png',
+  '/PWA/images/cloudy-scattered-showers.png',
+  '/PWA/images/cloudy.png',
+  '/PWA/images/fog.png',
+  '/PWA/images/ic_add_white_24px.svg',
+  '/PWA/images/ic_refresh_white_24px.svg',
+  '/PWA/images/partly-cloudy.png',
+  '/PWA/images/rain.png',
+  '/PWA/images/scattered-showers.png',
+  '/PWA/images/sleet.png',
+  '/PWA/images/snow.png',
+  '/PWA/images/thunderstorm.png',
+  '/PWA/images/wind.png'
 ];
 
 self.addEventListener('install', function(e) {
