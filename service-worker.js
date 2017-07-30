@@ -57,6 +57,9 @@ self.addEventListener('fetch', function(e) {
      * network" strategy:
      * https://jakearchibald.com/2014/offline-cookbook/#cache-then-network
      */
+    
+    //Amin: Fetch only rejects a promise if the user is offline, or some unlikely networking error occurs, such a DNS lookup failure 
+    //Promise rejections skip forward to the next then() , so if Fetch fails, that rejected promise is utilized in respondWith
     e.respondWith(
       caches.open(dataCacheName).then(function(cache) {
         return fetch(e.request).then(function(response){
